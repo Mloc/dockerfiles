@@ -1,7 +1,7 @@
 from debian:wheezy
 
 ENV BYOND_MAJOR=507 \
-    BYOND_MINOR=1283
+    BYOND_MINOR=1272
 
 RUN dpkg --add-architecture i386 \
         && apt-get update \
