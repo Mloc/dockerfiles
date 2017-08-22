@@ -1,7 +1,7 @@
-from debian:wheezy
+from ubuntu:xenial
 
-ENV BYOND_MAJOR=507 \
-    BYOND_MINOR=1272
+ENV BYOND_MAJOR=511 \
+    BYOND_MINOR=1385
 
 RUN dpkg --add-architecture i386 \
         && apt-get update \
